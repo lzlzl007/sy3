@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "util.h"
 int main() {
-    float a=5.0;
-    float b=3.2;
-    int result = add_float(a,b);
+    int a=5;
+    int b=3;
+    int result = jian (a,b);
     printf("The result is: %d\n", result);
     return 0;
 }
